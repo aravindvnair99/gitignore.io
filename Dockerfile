@@ -1,4 +1,4 @@
-FROM swift:4.2.4
+FROM swift:5.5.0
 WORKDIR /app
 ADD . ./
 RUN git submodule update --init --recursive
